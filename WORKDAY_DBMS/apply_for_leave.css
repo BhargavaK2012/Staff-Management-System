@@ -1,0 +1,120 @@
+.card {
+    box-shadow: 0 20px 40px 0 rgba(255, 255, 255, 0.2);
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 70px;
+    color: white;
+  }
+
+  body{
+    background-color: black;
+    
+}
+
+.logo{
+   padding-left: 45%;
+
+}
+
+.success_msg{
+  font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+    margin-left: 42%;
+    margin-top: 0%;
+    font-size: 50px;
+  
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 35%;
+    margin-top: 0%;
+    font-size: 80px;
+}
+hr{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 700, from(white), to(black));
+    
+}
+
+h2{
+    color: wheat;
+}
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -90px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #about {
+    top: 20px;
+    background-color:#04AA6D ;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336; /* Red */
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555 /* Light Black */
+  }
+
+  .leave_type{
+    width: 500px;
+    height: 300px;
+
+  }
+
+  .Submit{
+    transition-duration: 0.4s;
+    width: 200px;
+    color: green;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .Submit:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  .wrong_staffID{
+    color: red;
+    margin-left: 33%;
+    padding: 20px;
+  }
+
+  .Reason_Text_Box{
+    height: 40px;
+    width: 500px;
+  }
