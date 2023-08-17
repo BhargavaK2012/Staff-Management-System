@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    
+}
+
+.logo{
+   padding-left: 45%;
+
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 35%;
+    margin-top: 0%;
+    font-size: 80px;
+}
+
+hr{
+  display:block;
+  border:none;
+  color:white;
+  height:1px;
+  background:black;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 700, from(white), to(black));
+  
+}
+
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -90px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #about {
+    top: 20px;
+    background-color:#04AA6D ;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: red; 
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #2196F3; 
+  }
+  
+
+
+
+  /* Bordered form */
+form {
+    border: 30px solid;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 20px 5px;
+    margin: auto;
+    display: inline-block;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    border-radius: 100px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+  
+
+  /* Add padding to containers */
+  .container {
+  width: 700px;
+  margin: auto;
+
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  
+
+  .wrong_pass{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+    margin-left: 420px;
+    margin-bottom: 0px;
+  }
